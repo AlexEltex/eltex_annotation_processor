@@ -53,6 +53,6 @@ When assembling through Maven unless it is overridden method you will get a mess
 - Only for Eclipse: if you export the project it can not be connected to the Annotation Processing because it uses tools.jar.
 Только для Eclipse: если экспортировать проект то его нельзя будет подключить в Annotation Processing так как используется tools.jar.
 
-If you know how to correct items in the note please write to or alex.poljuhovic@eltex.net the69eyes1@gmail.com.
+If you know how to fix the problem in a note please write to or alex.poljuhovic@eltex.net the69eyes1@gmail.com.
 
-Если вы знаете как исправить пункты в примечание то пожалуйста напишите на alex.poljuhovic@eltex.net или the69eyes1@gmail.com .
+Если вы знаете как исправить проблемы в примечание то пожалуйста напишите на alex.poljuhovic@eltex.net или the69eyes1@gmail.com .
