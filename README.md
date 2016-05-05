@@ -1,9 +1,9 @@
 
 ## Concisely (Кратко)
 
-Implementation @MustOvveride annotations to build the project through maven.
+Implementation @MustOverride annotations to build the project through maven.
 
-Реализация аннотации @MustOvveride для сборки проекта через maven.
+Реализация аннотации @MustOverride для сборки проекта через maven.
 
 ## Using (Использование)
 
@@ -47,8 +47,8 @@ When assembling through Maven unless it is overridden method you will get a mess
 "Not exist method 'methodName()'. Annotation @MustOverride."
 
 ## Note (Примечание):
-- If @MustOvveride annotation in the class, which is based, it will not be processed in the child class of the main project.
-Если аннотация @MustOvveride в классе, который находится в зависимости, то она не будет обрабатываться в дочерних класса из основного проекта. 
+- If @MustOverride annotation in the class, which is based, it will not be processed in the child class of the main project.
+Если аннотация @MustOverride в классе, который находится в зависимости, то она не будет обрабатываться в дочерних класса из основного проекта. 
 
 - Only for Eclipse: if you export the project it can not be connected to the Annotation Processing because it uses tools.jar.
 Только для Eclipse: если экспортировать проект то его нельзя будет подключить в Annotation Processing так как используется tools.jar.
