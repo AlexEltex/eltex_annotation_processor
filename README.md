@@ -1,15 +1,14 @@
+*Read this in other languages: [Русский](README.ru.md)*
 
-## Concisely (Кратко)
+## Concisely
 
 Implementation @MustOverride annotations to build the project through maven.
 
-Реализация аннотации @MustOverride для сборки проекта через maven.
+## Using
 
-## Using (Использование)
+Add to pom.xml:
 
-Add to pom.xml (Добавить в pom.xml):
-
-1. Add to plugins (В раздел плагинов)
+1. Add to plugins
 
 ```
 <plugin>
@@ -32,7 +31,7 @@ Add to pom.xml (Добавить в pom.xml):
 </plugin>
 ```
 
-2. Add to dependencies (В раздел зависимости)
+2. Add to dependencies
 
 ```
 <dependency>
@@ -42,17 +41,13 @@ Add to pom.xml (Добавить в pom.xml):
 </dependency>
 ```
 
-When assembling through Maven unless it is overridden method you will get a message(При сборке через мавен если не будет переопределен метод то будет выдано сообщение):
+When assembling through Maven unless it is overridden method you will get a message:
 
 "Not exist method 'methodName()'. Annotation @MustOverride."
 
-## Note (Примечание):
+## Note!:
 - If @MustOverride annotation in the class, which is based, it will not be processed in the child class of the main project.
-Если аннотация @MustOverride в классе, который находится в зависимости, то она не будет обрабатываться в дочерних класса из основного проекта. 
 
 - Only for Eclipse: if you export the project it can not be connected to the Annotation Processing because it uses tools.jar.
-Только для Eclipse: если экспортировать проект то его нельзя будет подключить в Annotation Processing так как используется tools.jar.
 
 If you know how to fix the problem in a note please write to alex.poljuhovic@eltex.net or the69eyes1@gmail.com.
-
-Если вы знаете как исправить проблемы в примечание то пожалуйста напишите на alex.poljuhovic@eltex.net или the69eyes1@gmail.com .
